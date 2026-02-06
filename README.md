@@ -1,8 +1,7 @@
 # 🍽️ Restaurant Reservation Chatbot (BistroBot)
 
-An **AI-powered conversational chatbot** that helps users book restaurant tables through a simple chat interface.
-
-Built with a modern stack and designed like a real-world reservation assistant.
+An **AI-powered conversational chatbot** that helps users book restaurant tables through a simple chat interface.  
+Designed to feel like a real-world digital reservation assistant.
 
 ---
 
@@ -44,6 +43,8 @@ Built with a modern stack and designed like a real-world reservation assistant.
 ## 🧑‍💻 How to Run Locally
 
 ### 1️⃣ Clone the repository
+
+```bash
 git clone https://github.com/PranitBijave27/Restaurant_reservation_bot.git
 cd Restaurant_reservation_bot
 2️⃣ Install dependencies
@@ -57,7 +58,8 @@ MONGO_URI=mongodb://127.0.0.1:27017/restaurent
 HF_API_KEY=your_huggingface_token_here
 
 
-Get your Hugging Face token from: https://huggingface.co/settings/tokens
+Get your Hugging Face token from:
+https://huggingface.co/settings/tokens
 
 4️⃣ Start MongoDB locally
 
@@ -86,3 +88,31 @@ Pranit
 Bot:
 
 ✅ Confirmed! Table for 4 on 2026-02-08 at 19:00 under the name Pranit.
+
+📁 Project Structure
+Restaurant_reservation_bot/
+│
+├── server.js
+├── package.json
+├── .gitignore
+├── README.md
+│
+├── models/
+│   └── reservation.js
+│
+└── public/
+    └── index.html   # Chat UI
+
+🎯 Future Improvements
+
+Add booking cancellation
+
+Add rescheduling feature
+
+Add admin dashboard UI
+
+Store chat history
+
+Deploy online (Render / Railway / Vercel)
+
+Add authentication
